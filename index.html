@@ -8,6 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <!-- Start Coding Here -->
+
     <body class="bg-[#f8f9fc] font-sans text-slate-800 antialiased">
     
     <div class="min-h-screen p-6">
@@ -45,7 +47,81 @@
         </section>
       </header>
 
-
+      
+      
+<!-- ==========================================
+         SECTION 3: Developer 3 (Contact Form & Footer)
+         ========================================== -->
+         <section class="w-full px-4 py-16 flex flex-col items-center gap-16">
+        
+          <!-- Contact Card Container -->
+          <div class="w-full max-w-3xl p-8 md:p-12 flex flex-col items-center bg-white rounded-3xl shadow-sm border border-slate-100">
+              
+              <!-- Section Header -->
+              <h2 class="mb-8 text-3xl md:text-4xl font-bold text-[#1e1b2e] tracking-tight text-center">
+                  Get in Touch
+              </h2>
+  
+              <!-- Form -->
+              <form action="#" method="POST" class="w-full max-w-md flex flex-col gap-5">
+                  
+                  <!-- Field: Name -->
+                  <div class="flex flex-col gap-2">
+                      <label for="name" class="text-sm font-medium text-slate-500">Name</label>
+                      <input type="text" 
+                             id="name" 
+                             name="name" 
+                             placeholder="John Doe" 
+                             class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl outline-none focus:border-slate-400 focus:ring-1 focus:ring-slate-400 transition">
+                  </div>
+  
+                  <!-- Field: Email -->
+                  <div class="flex flex-col gap-2">
+                      <label for="email" class="text-sm font-medium text-slate-500">Email</label>
+                      <input type="email" 
+                             id="email" 
+                             name="email" 
+                             placeholder="john@example.com" 
+                             class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl outline-none focus:border-slate-400 focus:ring-1 focus:ring-slate-400 transition">
+                  </div>
+  
+                  <!-- Field: Message -->
+                  <div class="flex flex-col gap-2">
+                      <label for="message" class="text-sm font-medium text-slate-500">Message</label>
+                      <textarea id="message" 
+                                name="message" 
+                                rows="4" 
+                                placeholder="Your message..." 
+                                class="w-full px-4 py-3 text-sm bg-white border border-slate-200 rounded-xl outline-none focus:border-slate-400 focus:ring-1 focus:ring-slate-400 transition resize-y"></textarea>
+                  </div>
+  
+                  <!-- Submit Button -->
+                  <button type="submit" 
+                          class="w-full mt-2 py-3.5 text-sm font-semibold text-white bg-[#181623] hover:bg-[#262338] rounded-xl shadow-md transition-colors duration-200">
+                      Submit
+                  </button>
+  
+              </form>
+  
+          </div>
+  
+          <!-- Footer -->
+          <footer class="w-full max-w-5xl pt-4 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-semibold text-slate-500">
+              <!-- Copyright Left -->
+              <div>
+                  Acme productivity app ©2024
+              </div>
+  
+              <!-- Footer Links Right -->
+              <div class="flex items-center gap-6">
+                  <a href="#" class="hover:text-slate-800 transition">FAQ</a>
+                  <a href="#" class="hover:text-slate-800 transition">Terms</a>
+                  <a href="#" class="hover:text-slate-800 transition">AI Policy</a>
+                  <a href="#" class="hover:text-slate-800 transition">Pricing</a>
+              </div>
+          </footer>
+  
+      </section>
 
   </body>
 </html>
